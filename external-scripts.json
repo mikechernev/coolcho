@@ -10,5 +10,6 @@
   "hubot-rules",
   "hubot-shipit",
   "hubot-reaction",
-  "hubot-bitcoin"
+  "hubot-bitcoin",
+  "hubot-meme"
 ]
