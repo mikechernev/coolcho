@@ -12,5 +12,6 @@
   "hubot-reaction",
   "hubot-bitcoin",
   "hubot-meme",
-  "hubot-suggest"
+  "hubot-suggest",
+  "hubot-bitly"
 ]
