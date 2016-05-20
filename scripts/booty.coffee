@@ -1,5 +1,20 @@
+# Description:
+#   Shows a motivational photo
+#
+# Dependencies:
+#   None
+#
+# Configuration:
+#   none
+#
+# Commands:
+#   hubot booty (me) - Displays a motivational image
+#
+# Author:
+#   mikechernev
+
 module.exports = (robot) ->
-  robot.respond /(booty)\s*me/i, (bot) ->
+  robot.respond /booty(\s*me)?/i, (bot) ->
     apiUrl = 'http://api.obutts.ru/butts/' + Math.floor(Math.random() * 5000) + '/1/rank'
     bot.http(apiUrl).get() (err, res, body) ->
       return if err
